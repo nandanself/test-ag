@@ -24,7 +24,7 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 - `yarn start or npm start`
-- Visit your app at [http://localhost:3000](http://localhost:3000).
+- Visit your app at [http://localhost:5173/](http://localhost:5173/).
 
 ### Building
 
