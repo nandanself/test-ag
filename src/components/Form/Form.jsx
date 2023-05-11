@@ -57,7 +57,6 @@ const Form = ({ vehiclesTypesData }) => {
   const renderVehicleMakeSelectionElement = () => {
     const toggleOption = ({ obj }) => {
       setSelectVehicleMake((prevSelected) => {
-        // if it's in, remove
         const newArray = [...prevSelected];
         if (newArray.some((newItem) => newItem.MakeId === obj.MakeId)) {
           return newArray.filter((item) => item.MakeId !== obj.MakeId);
@@ -119,7 +118,7 @@ const Form = ({ vehiclesTypesData }) => {
       getVehiclesDetails(url);
     };
 
-    const isYearValid = isUseYearChecked ? year.length === 4 : true;
+    const isYearValid = isUseYearChecked ? /^\d{4}$/.test(year) : true;
 
     const disabled =
       selectedVehicleType === "" ||
