@@ -1,0 +1,41 @@
+
+  
+  .vehicle-type-wrapper {
+    display: block;
+    height: 50px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .vehicle-type-select {
+    width: 100%;
+    height: 32px;
+  }
+  
+  .multi-select-wrapper {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .vehicle-year-wrapper {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .search-button-wrapper {
+    text-align: left;
+    margin-bottom: 20px;
+  
+  }
+  
+  .search-button-wrapper button {
+    background-color: green;
+    color: white
+  }
+
+  .search-button-wrapper button:disabled{
+    background: grey;
+  }
